@@ -1,5 +1,6 @@
 import React from 'react';
 import ItemPrice from '../ItemPrice/ItemPrice';
+import Total from '../Total/Total'
 
 function Cart(props) {
 
@@ -27,12 +28,10 @@ function Cart(props) {
           <section className="main__summary">
             <h2>Your cart</h2>
             {summary}
-            <div className="summary__total">
-              <div className="summary__total__label">Total</div>
-              <div className="summary__total__value">
-                {props.USCurrencyFormat.format(total)}
-              </div>
-            </div>
+            <Total 
+              total={total}
+              USCurrencyFormat={props.USCurrencyFormat}
+            />
           </section>
     );
   }
