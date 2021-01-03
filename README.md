@@ -1,6 +1,4 @@
 # Laptop Customizer
-_Starter project for React course_
 
-I've broken the starter project up into components.
+In this exercise, I started off with a functional non-React webpage and then broke it up into components and rebuilt it using React. The page allows the user to choose parts for a custom laptop and see an updated total cost.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
